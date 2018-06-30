@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM TENANT</title>
+	 <link rel="stylesheet" href="styleform.css">
+	 <script src="formvalid.js"></script>
+</head>
+<body>
+	<div class="container">
+		
+			<div class="heading">
+				<h2 align="center">TENANT FORMULIR</h2>
+			</div>
+			<div class="detail">
+				<form method="post" action="data.php" name="myForm" onsubmit="return validateForm()">
+					<div class="row">
+						<div class="col1">
+							<label for="lemail">E-mail Address </label>
+						</div>
+						
+						<div class="col2">
+							<input type="text" id="lemail" name="email" placeholder="E-mail Address">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+							<label for="lnoktp">NO. KTP</label>
+						</div>
+						<div class="col2">
+							<input type="text" name="ktp" id="lnoktp" placeholder="Identitas Number">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+							<label for="lname">Name</label>
+						</div>
+						<div class="col2">
+							<input type="text" name="name" id="lname" placeholder="Name">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+							<label for="lcategori">Categories</label>
+						</div>
+						<div class="col2">
+							<input type="radio" name="categori" value="Food">Food
+							<input type="radio" name="categori" value="Merchandise and Accessories">Mercandhise and Accessories
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+							<label for="lpos">Position</label>
+						</div>
+						<div class="col2">
+							<input type="text" name="jabatan" id="ljpos" placeholder="Position">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+							<label for="liname">Business Name</label>
+						</div>
+						<div class="col2">
+							<input type="text" name="industri" id="liname" placeholder="Business Name">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+							<label for="laddress">Address</label>
+						</div>
+						<div class="col2">
+							<textarea placeholder="Business Address" name="address"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col1">
+						<!-- <p>Accept Terms and Conditions</p> <br> -->
+						<label for="term">Accept Terms and Conditions</label>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						
+							
+							<input type="checkbox" name="setuju" value="check"> &nbsp; Agree
+						
+						
+					</div>
+					<!-- <div class="row"> -->
+					<div>
+						 <input type="submit">
+					</div>
+				</form>
+			</div>
+			
+	
+	</div>
+</body>
+</html>

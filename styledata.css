@@ -1,0 +1,134 @@
+*{margin:0; padding:0; border:0;}
+
+body{
+  /*background: linear-gradient(to right, #000 0%, #fff 100%);*/
+  background-image: url('back.png');
+  background-size: 100%;
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+ 
+}
+
+.container{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: lightgrey;
+
+}
+
+.heading{
+  width: 100%;
+  height: 40px;
+}
+
+
+.detail{
+  width: 100%;
+  height: 350px;
+  background-color: lavenderblush;
+}
+form{
+  padding-top: 10px;
+}
+.row{
+  width: 100%;
+  height: 35px;
+  /*float: left;*/
+  font-size: 1.2em;
+  font-family: 'Arial Narrow', sans-serif;
+}
+
+.col1{
+  width: 25%;
+  float: left;
+}
+
+.col2{
+  width: 75%;
+  float: left;
+}
+
+label{
+  margin-left: 10%;
+}
+input[type=submit]{
+  background-color: maroon;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  font-family: 'Arial Narrow', sans-serif;
+  float: right;
+  text-align: center;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+input[type=text]{
+  width: 70%;
+  height: 27px;
+}
+
+textarea{
+  width: 70%;
+  height: 60px;
+}
+
+.row p{
+  margin-left: 25%;
+}
+
+input[type=checkbox]{
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+label[for=address]{
+  margin-left: 0%;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: lavenderblush;
+}
+
+.footer p{
+  font-size: 1.4em;
+  font-family: 'Arial Narrow', sans-serif;
+  float: left;
+  margin-left: 20px;
+}
+
+.button{
+  width: 100%;
+  height: 50px;
+  background-color: lavenderblush;
+}
+
+button{
+  background-color: maroon;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  font-family: 'Arial Narrow', sans-serif;
+  float: left;
+  margin-left: 20px;
+}
+
+.button a{
+  color: mistyrose;
+  text-decoration: none; 
+  display: block;
+}
+
+button:hover {
+  background-color: lightpink;
+  color: maroon;
+}

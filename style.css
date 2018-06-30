@@ -1,0 +1,223 @@
+*{margin:0; padding:0; border:0;}
+
+body{
+  /*background: linear-gradient(to right, #000 0%, #fff 100%);*/
+  background-image: url('back.png');
+  background-size: 100%;
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-color: lavenderblush;
+}
+
+.container{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.foto{
+  width:100%;
+  height: 300px;
+  
+  /*background-color: salmon;*/
+}
+
+.kontenbesar{
+  float: left;
+  width: 70%;
+  height: 300px;
+  background-image: url('cover2.jpg');
+  background-size: 100%;
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.kontenkecil{
+  float: right;
+  width: 30%;
+  height: 300px;
+  background-color: lavenderblush;
+  opacity: 0.95;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.atas{
+  padding-top: 0.9px;
+  width: 100%;
+  height: 200px;
+  background-image: url('logo3.png');
+  opacity: 0.9;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tengah{
+  width: 100%;
+  height: 70px;
+  /*background-color: blue;*/
+}
+
+.tengah h1{
+  /*font-family: */
+  color: maroon;
+  font-size: 1.5em;
+  text-align: center;
+  /*padding-top: 15px;*/
+  font-family: 'Comic Sans MS',cursive;
+}
+
+.bawah{
+  width: 100%;
+  height: 30px;
+}
+
+.bawah p{
+  color: lightslategrey;
+  font-size: 1.4em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.register{
+  width: 100%;
+  height: 40px;
+  background-color: mistyrose;
+}
+
+.addOn{
+  float: left;
+  width: 70%;
+  height: 40px;
+  background-color: mistyrose;
+}
+
+.home{
+  float: left;
+  margin-top: 0.7%;
+  margin-left: 2%;
+  width: 150px;
+  height: 30px;
+}
+
+.ikon{
+  float: left;
+  /*margin-top: 3%;
+  margin-left: 5%;*/
+  width: 30px;
+  height: 30px;
+ /* background-image: url('home.png');
+  background-size: 100%;
+  background-repeat: no-repeat;*/
+ 
+}
+
+#ikonhome{
+  float: left;
+  /*margin-top: 3%;
+  margin-left: 5%;*/
+  width: 30px;
+  height: 30px;
+  background-image: url('home.png');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+
+.syarat{
+  float: left;
+  margin-top: 0.7%;
+  margin-left: 5%;
+  width: 400px;
+  height: 30px;
+}
+
+#ikonsyarat{
+  float: left;
+  /*margin-top: 3%;
+  margin-left: 5%;*/
+  width: 30px;
+  height: 30px;
+  background-image: url('case.png');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+}
+
+
+#link{
+  float: left;
+  margin-top: 1%;
+  margin-left: 3%;
+  font-size: 1.3em;
+  font-family: 'Arial Narrow', sans-serif;
+}
+
+a{
+  color: maroon;
+  text-decoration: none; 
+  display: block;
+}
+
+a:hover {
+  background-color: maroon;
+  color: lightpink;
+}
+
+
+.tombol{
+  float: right;
+  width: 30%;
+  height: 40px;
+}
+
+.button{
+  width: 30%;
+  height: 30px;
+  margin-left: 25%;
+}
+
+
+#daftar{
+  background-color: maroon;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  font-family: 'Arial Narrow', sans-serif;
+
+}
+
+.button a{
+  color: mistyrose;
+  text-decoration: none; 
+  display: block;
+}
+
+#daftar:hover {
+  background-color: lightpink;
+  color: maroon;
+}
+.detail{
+  width: 100%;
+  height: 500px;
+  background-color: lavenderblush;
+  /*font-family: comic sans ms;*/
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 1.4em;
+  /*background-image: url('BG.png');*/
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  opacity: 0.9;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.detail table{
+  margin-left: 50px;
+  margin-right: 25px;
+}
